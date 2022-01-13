@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+  background-image: url(../img/valorantW.jpg);
+  background-size: cover;
+}
+
+#contenedor {
+  position: relative;
+  margin: 5vh auto;
+  width: 1000px;
+  height: 500px;
+  /* opacity: 0.75; */
+
+}
+
+#contenedor #lienzo {
+  opacity: 0.75;
+}
+
+#lienzo {
+  background: url(../img/HAVENssssss2222.jpg);
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  
+}
+
+#contenedor button {
+  border: none;
+  display: block;
+  position: relative;
+  margin: 30px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(233, 135, 128, 0.8);
+  color: #fff;
+  font-weight: 600;
+}
+
+#vertical {
+  display: none;
+}
+
+
+
+@media all and (orientation: portrait){
+    #contendor {
+      display: none;
+    }
+
+    #vertical {
+      display: block;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      z-index: 1;
+      background: url(../img/vertical.png);
+      background-size: cover;
+      background-position: center ;
+    }
+}
+
+.personajes {
+  display: flex;  
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 100px;
+
+}
+
+.personajes .jett {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/jett.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .jett:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);;
+  transition: .5s;
+}
+
+
+.personajes .reyna {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/reyna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .reyna:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .brim {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/brim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .brim:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .sage {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/sage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .sage:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .viper {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/viper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .viper:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .phoenix {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/phoenix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .phoenix:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .p8 {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/pajaro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .p8:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .p9 {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/yorus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .p9:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .p10 {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/sova.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .p10:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .p11 {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/luz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .p11:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
+.personajes .p12 {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  border: 1px solid rgb(218, 218, 218);
+  background-image: url(../img/raze.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personajes .p12:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 3px solid rgb(34, 155, 88);
+  transition: .5s;
+}
+
